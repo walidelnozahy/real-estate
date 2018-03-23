@@ -1,0 +1,84 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4 {
+  font-weight: 700; }
+
+h1 {
+  padding-top: 50px;
+  font-size: 2em; }
+  h1.body-h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    position: relative; }
+    h1.body-h1::before {
+      content: "Projects";
+      color: rgba(0, 0, 0, 0.05);
+      font-size: 1.5em;
+      position: absolute;
+      z-index: 1;
+      left: 15vw;
+      top: 4vh; }
+    h1.body-h1::after {
+      content: "";
+      height: 3px;
+      width: 80px;
+      margin-left: 10px;
+      top: 80%;
+      background-color: #CDA036;
+      position: absolute; }
+
+p {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+  font-size: 0.9em; }
+
+#sidenav-overlay {
+  display: none;
+  opacity: 0; }
+
+@media (max-width: 992px) {
+  .body-h1 {
+    display: table !important;
+    margin: auto !important; }
+    .body-h1::after {
+      position: static !important;
+      content: "";
+      display: block !important;
+      margin-top: 5px;
+      width: 100% !important;
+      height: 3px;
+      background: #CDA036;
+      margin-left: 0 !important; } }
+.page-footer {
+  background-color: #222222;
+  text-align: center; }
+  .page-footer h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    padding-left: 0 !important; }
+  .page-footer p {
+    font-size: 0.9em;
+    font-weight: 100; }
+  .page-footer ul li {
+    display: inline;
+    margin: 10px; }
+    .page-footer ul li a img {
+      width: 20px; }
+    .page-footer ul li a.facebook img {
+      width: 10px; }
+
+@media (max-width: 992px) {
+  .footer-logo {
+    width: 40% !important;
+    height: auto;
+    margin: auto;
+    position: relative;
+    left: 50% !important;
+    transform: translateX(-50%); } }
+
+/*# sourceMappingURL=footer.css.map */

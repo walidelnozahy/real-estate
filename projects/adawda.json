@@ -1,0 +1,90 @@
+{
+  "Sheet1": {
+    "code15": {
+      "code_name": "Cayan 15",
+      "Project_Name": "Bursa Modern",
+      "location": "borsa, Turkey",
+      "type": "1+1, 2+1, 3+1, 4+1, 5+2",
+      "priceMax": 276089,
+      "priceMax": 3830400,
+      "areaMin": "70m - ",
+      "areaMax": "586m",
+      "apartments": {
+        "1+1": {
+          "priceMin": 276089,
+          "priceMax": 399599,
+          "area": "70m - 87m"
+        },
+        "2+1": {
+          "priceMin": 415992,
+          "priceMax": 819124,
+          "area": "105m - 186m"
+        },
+        "3+1": {
+          "priceMin": 473159,
+          "priceMax": 861804,
+          "area": "120m - 241m"
+        },
+        "4+1": {
+          "priceMin": 618632,
+          "pricMmax": 786185,
+          "area": "191m - 216m"
+        },
+        "5+2": {
+          "priceMin": 3085950,
+          "priceMax": 3830400,
+          "area": "586"
+        }
+      },
+      "down-payment": 0.15,
+      "installments": 48,
+      "status": "Ready To Move",
+      "delivery": "ready",
+      "status-ar": "جاهز",
+      "delivery-ar": "جاهز"
+    },
+    "code107": {
+      "code_name": "Cayan 107",
+      "Project_Name": "Marina 24",
+      "location": "Istanbul, Turkey",
+      "type": "1+1, 2+1, 3+1, 4+1 ,5+1",
+      "priceMax": 460000,
+      "priceMax": 2818847,
+      "areaMin": "69.44m - ",
+      "areaMax": "343.51m",
+      "apartments": {
+        "1+1": {
+          "priceMin": 460000,
+          "priceMax": 857734,
+          "area": "69.44m - 100.15m"
+        },
+        "2+1": {
+          "priceMin": 623548,
+          "priceMax": 1717574,
+          "area": "85.94m - 228.79m"
+        },
+        "3+1": {
+          "priceMin": 1218617,
+          "priceMax": 2008969,
+          "area": "150.5m - 273.89m"
+        },
+        "4+1": {
+          "priceMin": 1246920,
+          "pricMmax": 2870871,
+          "area": "153.85m - 321.64m"
+        },
+        "5+1": {
+          "priceMin": 2669473,
+          "priceMax": 2818847,
+          "area": "261.97m - 343.51m"
+        }
+      },
+      "down-payment": 0.35,
+      "installments": 24,
+      "status": "Under Construction",
+      "delivery": "sadasdasdas",
+      "status-ar": "تحت الانشاء",
+      "delivery-ar": ""
+    }
+  }
+}

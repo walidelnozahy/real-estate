@@ -1,0 +1,32 @@
+.fixed-action-btn {
+  display: none !important; }
+
+@media (max-width: 992px) {
+  .fixed-action-btn {
+    display: block !important;
+    position: fixed !important;
+    left: 10px !important;
+    bottom: 10px !important; }
+    .fixed-action-btn a {
+      background-color: #222222; }
+      .fixed-action-btn a:hover {
+        background-color: #222222; }
+      .fixed-action-btn a i {
+        color: #fff; }
+    .fixed-action-btn ul {
+      text-align: left;
+      display: table;
+      margin-left: 10px; }
+      .fixed-action-btn ul li {
+        display: table; }
+        .fixed-action-btn ul li a {
+          font-weight: 400;
+          text-align: center; }
+      .fixed-action-btn ul .whatsapp {
+        text-align: center; }
+        .fixed-action-btn ul .whatsapp img {
+          margin: 6px auto 0 auto;
+          width: 50%;
+          height: auto; } }
+
+/*# sourceMappingURL=fixed-btn.css.map */

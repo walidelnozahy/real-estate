@@ -1,0 +1,366 @@
+@import "base-styles"
+@import "common-styles"
+@import "normal-nav.sass"
+@import "contact-section.sass"
+@import "fixed-btn.sass"
+@import "pre-loader.sass"
+@import "footer.sass"
+html
+  width: 100% !important
+
+body
+  width: 100% !important
+
+
+.cayan
+  position: fixed
+  left: -30%
+  margin: 0
+  top: -5%
+  bottom: 0
+  padding: 0
+  z-index: -30
+  font-size: 13em
+  color: rgba(0,0,0,0.09)
+  transform: rotate(90deg)
+  display: none
+  @media (max-width: 1200px)
+    display: none
+
+
+.projects-hero-carousel-mobile
+  display: none
+.projects-hero-carousel
+  margin: 0
+  padding: 0
+  height: 100vh
+  width: 100%
+  position: relative
+  background:
+    image: url('../assets/images/projects/_projects-hero-lg.jpg')
+    position: center
+    size: cover
+    attachment: fixed
+    repeat: no-repeat
+  .container
+    position: absolute
+    bottom: 0
+    width: 100%
+    margin: auto
+    left: 50%
+    transform: translateX(-50%)
+    height: 210px
+    text-align: center
+    h1
+      padding: 0
+      margin: 50px 0 0 0
+      color: #fff
+      font-size: 12em
+    .projects-filter
+      background-color: #fff
+      height: 100px
+      width: 80%
+      position: absolute
+      bottom: -20%
+      left: 50%
+      transform: translateX(-50%)
+      display: flex
+      justify-content: space-around
+      box-shadow: $shadow
+      .dropdown-button
+        text-align: left
+        margin: auto
+        color: $black-bg
+        background: none
+        box-shadow: none
+        border-bottom: 1px solid $black-bg
+        border-bottom: 2px solid $main-cayan-gold
+        i
+          color: $main-cayan-gold
+      .dropdown-content
+        margin: 0
+        position: relative
+        z-index: 30
+        border-top: 2px solid $main-cayan-gold
+
+        li
+          padding: 0
+          a
+            color: $black-bg
+            font-weight: 300
+            cursor: pointer
+            &:hover
+              background-color: rgba(0,0,0,0.01)
+
+        &.price,&.area
+          li
+            a
+              font-size: 1em
+
+.projects
+  position: relative
+  margin: 200px 0 0 0
+  @media (max-width:992px)
+    margin: 100px 0 0 0
+  .container
+    width: 90%
+    @media (max-width:1200px)
+      width: 100%
+
+    .row
+      padding: auto
+      width: 100%
+      margin: 0
+      .projects-all
+        margin: 0
+        width: 100%
+        padding: 0
+        @media (min-width: 601px) and (max-width:992px)
+          margin-top: 20px
+          padding-left: 30px
+        @media (min-width: 993px) and (max-width:1200px)
+          padding-left: 30px
+        @media (min-width: 1201px)
+          padding-left: 30px
+        .projects-each
+          margin: 15px
+          width: 30%
+          padding: 0
+          //height: 600px
+          //background-color: black
+          color: #fff
+          border-radius: 30px
+          overflow: hidden
+          background-color: #fff
+          box-shadow: 6px 6px 30px 0px rgba(0,0,0,0.2)
+          //border: 1px solid lightgrey
+          @media (max-width: 600px)
+            width: 90%
+            margin: 20px
+
+
+          @media (min-width: 601px) and (max-width:992px)
+            width: 42%
+          @media (min-width: 993px) and (max-width:1200px)
+            margin: 15px
+          @media (min-width: 1201px)
+            margin-top: 20px
+          .background-image
+            position: relative
+            height: 250px
+            width: 100%
+            background:
+              position: center
+              size: cover
+              repeat: no-repeat
+            h5
+              font-family: 'Oswald', sans-serif
+              font-weight: 400
+              position: absolute
+              color: #fff
+              bottom: 0
+              margin: 10px
+              background-color: rgba(0,0,0,0.4)
+            &.deniz-istanbul
+              background-image: url('../assets/images/carousel/deniz-istanbul/deniz-istanbul.jpg')
+            &.bursa-modern
+              background-image: url('../assets/images/carousel/bursa-modern/bursa-modern.jpg')
+            &.strada
+              background-image: url('../assets/images/carousel/strada/strada.jpg')
+            &.cayan-100
+              background-image: url('../assets/images/carousel/cayan-100/cayan-100.jpg')
+            &.cayan-124
+              background-image: url('../assets/images/carousel/cayan-124/cayan-124.jpg')
+            &.cayan-107
+              background-image: url('../assets/images/carousel/cayan-107/cayan-107.jpg')
+            &.cayan-128
+              background-image: url('../assets/images/carousel/cayan-128/cayan-128.jpg')
+            &.cayan-139
+              background-image: url('../assets/images/carousel/cayan-139/cayan-139.jpg')
+            &.cayan-106
+              background-image: url('../assets/images/carousel/cayan-106/cayan-106.jpg')
+            &.cayan-112
+              background-image: url('../assets/images/carousel/cayan-112/cayan-112.jpg')
+            &.cayan-127
+              background-image: url('../assets/images/carousel/cayan-127/cayan-127.jpg')
+            &.cayan-41
+              background-image: url('../assets/images/carousel/cayan-41/cayan-41.jpg')
+            &.cayan-132
+              background-image: url('../assets/images/carousel/cayan-132/cayan-132.jpg')
+            &.cayan-115
+              background-image: url('../assets/images/carousel/cayan-115/cayan-115.jpg')
+            &.cayan-103
+              background-image: url('../assets/images/carousel/cayan-103/cayan-103.jpg')
+            &.cayan-138
+              background-image: url('../assets/images/carousel/cayan-138/cayan-138.jpg')
+            &.cayan-97
+              background-image: url('../assets/images/carousel/cayan-97/cayan-97.jpg')
+            &.cayan-4
+              background-image: url('../assets/images/carousel/cayan-4/1.jpg')
+
+          .description
+            padding: 20px 20px 0 20px
+            margin-bottom: 0
+            color: $lightgrey
+            text-align: left
+            h6
+              font-weight: 500
+              font-size: 0.9em
+              color: black
+            h5
+              font-family: 'Oswald', sans-serif
+              font-weight: 600
+              font-size: 1.3em
+              color: $main-cayan-gold
+              margin: 0
+            p
+              font-size: 0.8em
+              font-weight: 500
+              margin: 10px 5px
+          .owl-carousel-icons
+            margin-top: 10px
+            border-top: 1px solid lightgrey
+            border-bottom: 1px solid lightgrey
+            text-align: left
+            .left-icons,.right-icons
+              width: 50%
+              padding: 5px 5px
+              &.left-icons
+                border-right: 1px solid lightgrey
+              img
+                width: 18px
+                height: auto
+                display: inline
+                transform: translateY(5px)
+              p
+                display: inline
+                font-size: 0.7em
+                font-weight: 400
+          .button-div
+            text-align: center
+            padding: 20px
+            button
+              background-color: $light-black
+              border-radius: 20px
+              font-weight: 400
+              font-size: 0.7em
+              cursor: pointer
+              transition: all .3s
+              &:hover
+                background-color: rgba(0,0,0,0.8)
+
+.advertisement
+  height: 300px
+  .container
+    .text
+      position: relative
+      padding: 10px
+      width: 100%
+      height: 300px
+      color: #fff
+      text-align: left
+      z-index: 30
+      background:
+        image: url('../assets/images/projects/_projects-ads.jpg')
+        position: center
+        size: cover
+        repeat: no-repeat
+      .text-inner
+        h5
+
+          font-size: 3.5em
+          font-weight: 100
+          span
+            font-weight: 400
+            color: $main-cayan-gold
+        p
+          font-size: 1.8em
+          font-weight: 100
+          color: #fff
+          span
+            font-weight: 400
+            color: $main-cayan-gold
+        h1
+          font-size: 9em
+          margin: 0
+          padding: 0
+          color: $main-cayan-gold
+@media (max-width: 992px)
+  .projects-hero-carousel
+    width: 100%
+    // background-image: url('../assets/images/projects/_projects-hero-sm.jpg')
+    .container
+      // position: relative
+      // top: 5%
+      height: 100px
+      h1
+        // display: none
+        font-size: 4.5em
+      .projects-filter
+        background-color: rgba(255,255,255,0.9)
+        position: relative !important
+        top: 10% !important
+        //bottom: 0 !important
+        flex-direction: column
+        height: 90vh
+
+
+  .advertisement
+    margin-bottom: 30px
+    .text
+      overflow: hidden
+      background-position: top left !important
+      padding: 0 !important
+
+      &::after
+        content: ""
+        width: 90%
+        height: 90%
+        background-color: rgba(0,0,0,0.5)
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        z-index: 10
+
+      .text-inner
+        width: 90%
+        height: 90%
+        position: absolute
+        z-index: 11
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        padding-top: 10%
+        text-align: center
+        h5
+          font-size: 2em !important
+        p
+          font-size: 1em !important
+        h1
+          font-size: 5em !important
+
+  .projects-hero-carousel-mobile
+    display: block
+    height: 100px
+    width: 100%
+    position: relative
+    background:
+      image: url('../assets/images/_projects-hero.jpg')
+      position-y: -20px
+      size: cover
+      //attachment: fixed
+      repeat: no-repeat
+    &::after
+      content: ""
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,0.3)
+      position: absolute
+      z-index: 10
+    h1
+      position: absolute
+      z-index: 11
+      margin: 0
+      padding-top: 20px
+      color: #fff

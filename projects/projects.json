@@ -1,0 +1,686 @@
+{
+  "code15": {
+    "code_name": "Cayan 15",
+    "Project_Name": "Bursa Modern",
+    "location": "borsa, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1, 5+2",
+    "priceMin": 276089,
+    "priceMax": 3830400,
+    "areaMin": "70m - ",
+    "areaMax": "586m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 276089,
+        "priceMax": 399599,
+        "area": "70m - 87m"
+      },
+      "2+1": {
+        "priceMin": 415992,
+        "priceMax": 819124,
+        "area": "105m - 186m"
+      },
+      "3+1": {
+        "priceMin": 473159,
+        "priceMax": 861804,
+        "area": "120m - 241m"
+      },
+      "4+1": {
+        "priceMin": 618632,
+        "pricMmax": 786185,
+        "area": "191m - 216m"
+      },
+      "5+2": {
+        "priceMin": 3085950,
+        "priceMax": 3830400,
+        "area": "586"
+      }
+    },
+    "down-payment": 0.15,
+    "installments": 48,
+    "status": "Ready To Move",
+    "delivery": "ready",
+    "status-ar": "جاهز",
+    "delivery-ar": "جاهز"
+  },
+  "code107": {
+    "code_name": "Cayan 107",
+    "Project_Name": "Marina 24",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1 ,5+1",
+    "priceMin": 460000,
+    "priceMax": 2818847,
+    "areaMin": "69.44m - ",
+    "areaMax": "343.51m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 460000,
+        "priceMax": 857734,
+        "area": "69.44m - 100.15m"
+      },
+      "2+1": {
+        "priceMin": 623548,
+        "priceMax": 1717574,
+        "area": "85.94m - 228.79m"
+      },
+      "3+1": {
+        "priceMin": 1218617,
+        "priceMax": 2008969,
+        "area": "150.5m - 273.89m"
+      },
+      "4+1": {
+        "priceMin": 1246920,
+        "pricMmax": 2870871,
+        "area": "153.85m - 321.64m"
+      },
+      "5+1": {
+        "priceMin": 2669473,
+        "priceMax": 2818847,
+        "area": "261.97m - 343.51m"
+      }
+    },
+    "down-payment": 0.35,
+    "installments": 24,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": ""
+  },
+  "code11": {
+    "code_name": "Cayan 11",
+    "Project_Name": "Deniz Istanbul",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1, 5+2",
+    "priceMin": 442000,
+    "priceMax": 4417000,
+    "areaMin": "66m - ",
+    "areaMax": "385m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 442000,
+        "priceMax": "",
+        "area": "66m"
+      },
+      "2+1": {
+        "priceMin": 668000,
+        "priceMax": "",
+        "area": "96m - 144m"
+      },
+      "3+1": {
+        "priceMin": 891000,
+        "priceMax": "",
+        "area": "133m - 179m"
+      },
+      "4+1": {
+        "priceMin": 1576000,
+        "pricMmax": "",
+        "area": "213m - 213m"
+      },
+      "3+1villa": {
+        "priceMin": 1592000,
+        "priceMax": "",
+        "area": "156m - 179m"
+      },
+      "4+1villa": {
+        "priceMin": 2142000,
+        "priceMax": "",
+        "area": "199m - 213m"
+      },
+      "5+1villa": {
+        "priceMin": 4417000,
+        "priceMax": "",
+        "area": "385m"
+      }
+    },
+    "down-payment": 0.25,
+    "installments": 24,
+    "status": "Under Construction",
+    "delivery": "2018 - 2020",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2018 - 2020"
+  },
+  "code101": {
+    "code_name": "Cayan 101",
+    "Project_Name": "Strada",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1",
+    "priceMin": 276000,
+    "priceMax": 707000,
+    "areaMin": "66m - ",
+    "areaMax": "167m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 276000,
+        "priceMax": 335000,
+        "area": "66m - 82m"
+      },
+      "2+1": {
+        "priceMin": 384000,
+        "priceMax": 584000,
+        "area": "106m - 152m"
+      },
+      "3+1": {
+        "priceMin": 489000,
+        "priceMax": 707000,
+        "area": "138m - 167m"
+      }
+    },
+    "down-payment": 0.2,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2018 - 2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2018 - 2019"
+  },
+  "code100": {
+    "code_name": "Cayan 100",
+    "Project_Name": "Istanbul 3",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 411000,
+    "priceMax": 1270000,
+    "areaMin": "48m - ",
+    "areaMax": "252m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 411000,
+        "priceMax": 522000,
+        "area": "48m - 85m"
+      },
+      "2+1": {
+        "priceMin": 557000,
+        "priceMax": 794000,
+        "area": "108m - 130m"
+      },
+      "3+1": {
+        "priceMin": 743000,
+        "priceMax": 976000,
+        "area": "163m"
+      },
+      "4+1": {
+        "priceMin": 985000,
+        "priceMax": 1270000,
+        "area": "215m - 252m"
+      }
+    },
+    "down-payment": 0.5,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2019"
+  },
+  "code124": {
+    "code_name": "Cayan 124",
+    "Project_Name": "Evim yüksekdağ",
+    "location": "Istanbul, Turkey",
+    "type": "2+1, 3+1",
+    "priceMin": 330000,
+    "priceMax": 610000,
+    "areaMin": "91m - ",
+    "areaMax": "171m",
+    "apartments": {
+      "2+1": {
+        "priceMin": 330000,
+        "priceMax": 535000,
+        "area": "91m - 125m"
+      },
+      "3+1": {
+        "priceMin": 460000,
+        "priceMax": 610000,
+        "area": "143m - 171m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2018",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2018"
+  },
+  "code128": {
+    "code_name": "Cayan 128",
+    "Project_Name": "HALIC",
+    "location": "Istanbul, Turkey",
+    "type": "1+0, 1+1, 2+1, 3+1",
+    "priceMin": 292940,
+    "priceMax": 1085000,
+    "areaMin": "50m - ",
+    "areaMax": "201m",
+    "apartments": {
+      "1+0": {
+        "priceMin": 292940,
+        "priceMax": 345000,
+        "area": "50m - 53m"
+      },
+      "1+1": {
+        "priceMin": 398670,
+        "priceMax": 441000,
+        "area": "73m - 75m"
+      },
+      "2+1": {
+        "priceMin": 561827,
+        "priceMax": 629000,
+        "area": "98m - 117m"
+      },
+      "3+1": {
+        "priceMin": 840025,
+        "priceMax": 1085000,
+        "area": "141m - 201m"
+      }
+    },
+    "down-payment": 0.35,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2019"
+  },
+  "code139": {
+    "code_name": "Cayan 139",
+    "Project_Name": "Isbartakole emlak kont",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+2",
+    "priceMin": 425000,
+    "priceMax": 882000,
+    "areaMin": "96m - ",
+    "areaMax": "211m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 425000,
+        "priceMax": "",
+        "area": "96m - 105m"
+      },
+      "2+1": {
+        "priceMin": 558000,
+        "priceMax": "",
+        "area": "120m - 149m"
+      },
+      "3+1": {
+        "priceMin": 627000,
+        "priceMax": "",
+        "area": "159m - 186m"
+      },
+      "4+2": {
+        "priceMin": 882000,
+        "priceMax": "",
+        "area": "207m - 211m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 120,
+    "status": "Under Construction",
+    "delivery": "2018",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2018"
+  },
+  "code106": {
+    "code_name": "Cayan 106",
+    "Project_Name": "EMS",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1",
+    "priceMin": 290579,
+    "priceMax": 671649,
+    "areaMin": "71m - ",
+    "areaMax": "181m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 290579,
+        "priceMax": 353584,
+        "area": "71m - 89m"
+      },
+      "2+1": {
+        "priceMin": 411994,
+        "priceMax": 625724,
+        "area": "113m - 173m"
+      },
+      "3+1": {
+        "priceMin": 544489,
+        "priceMax": 671649,
+        "area": "157m - 181m"
+      }
+    },
+    "down-payment": 0.5,
+    "installments": 24,
+    "status": "Ready To Move",
+    "delivery": "Ready",
+    "status-ar": "جاهز",
+    "delivery-ar": "جاهز"
+  },
+  "code115": {
+    "code_name": "Cayan 115",
+    "Project_Name": "Aurupark hayat",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 274000,
+    "priceMax": 799000,
+    "areaMin": "65m - ",
+    "areaMax": "207.5m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 274000,
+        "priceMax": 364000,
+        "area": "65m - 104m"
+      },
+      "2+1": {
+        "priceMin": 421000,
+        "priceMax": 692000,
+        "area": "110m - 208m"
+      },
+      "3+1": {
+        "priceMin": 527000,
+        "priceMax": 796000,
+        "area": "138m - 212m"
+      },
+      "4+1": {
+        "priceMin": 768000,
+        "priceMax": 799000,
+        "area": "206.5m - 207.5m"
+      }
+    },
+    "down-payment": 0.15,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2020",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2020"
+  },
+  "code112": {
+    "code_name": "Cayan 112",
+    "Project_Name": "Semt",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 244000,
+    "priceMax": 803000,
+    "areaMin": "69m - ",
+    "areaMax": "233m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 244000,
+        "priceMax": 350000,
+        "area": "69m - 96m"
+      },
+      "2+1": {
+        "priceMin": 380000,
+        "priceMax": 714000,
+        "area": "96m - 224m"
+      },
+      "3+1": {
+        "priceMin": 486000,
+        "priceMax": 773000,
+        "area": "144m - 224m"
+      },
+      "4+1": {
+        "priceMin": 693000,
+        "priceMax": 803000,
+        "area": "207m - 233m"
+      }
+    },
+    "down-payment": 0.5,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2019"
+  },
+  "code138": {
+    "code_name": "Cayan 138",
+    "Project_Name": "ebruli",
+    "location": "Istanbul, Turkey",
+    "type": "2+1, 3+1, 4+2",
+    "priceMin": 558000,
+    "priceMax": 1163000,
+    "areaMin": "128m - ",
+    "areaMax": "228m",
+    "apartments": {
+      "2+1": {
+        "priceMin": 558000,
+        "priceMax": 598000,
+        "area": "128m - 134m"
+      },
+      "3+1": {
+        "priceMin": 714000,
+        "priceMax": 785000,
+        "area": "168m - 190m"
+      },
+      "4+2": {
+        "priceMin": 1067000,
+        "priceMax": 1163000,
+        "area": "208m - 228m"
+      }
+    },
+    "down-payment": 0.25,
+    "installments": 84,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2019"
+  },
+  "code127": {
+    "code_name": "Cayan 127",
+    "Project_Name": "Tem Avrasya",
+    "location": "Istanbul, Turkey",
+    "type": "2+1, 3+1, 4+1",
+    "priceMin": 533000,
+    "priceMax": 1200000,
+    "areaMin": "93m - ",
+    "areaMax": "201m",
+    "apartments": {
+      "2+1": {
+        "priceMin": 533000,
+        "priceMax": 721000,
+        "area": "93m - 115m"
+      },
+      "3+1": {
+        "priceMin": 670000,
+        "priceMax": 922000,
+        "area": "100m - 134m"
+      },
+      "4+1": {
+        "priceMin": 1194000,
+        "priceMax": 1200000,
+        "area": "201m - 201m"
+      }
+    },
+    "down-payment": 0.35,
+    "installments": 36,
+    "status": "Under Construction",
+    "delivery": "2019",
+    "status-ar": "تحت الانشاء",
+    "delivery-ar": "2019"
+  },
+  "code132": {
+    "code_name": "Cayan 132",
+    "Project_Name": "norlo park",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 595000,
+    "priceMax": 2130000,
+    "areaMin": "75m - ",
+    "areaMax": "231m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 595000,
+        "priceMax": 850000,
+        "area": "75m - 88m"
+      },
+      "2+1": {
+        "priceMin": 850000,
+        "priceMax": 1250000,
+        "area": "81m - 134m"
+      },
+      "3+1": {
+        "priceMin": 1150000,
+        "priceMax": 1625000,
+        "area": "159m - 204m"
+      },
+      "4+1": {
+        "priceMin": 1550000,
+        "priceMax": 2130000,
+        "area": "225m - 231m"
+      }
+    },
+    "down-payment": 0.35,
+    "installments": 50,
+    "status": "Ready To Move",
+    "delivery": "Ready",
+    "status-ar": " جاهز",
+    "delivery-ar": "جاهز"
+  },
+  "code103": {
+    "code_name": "Cayan 103",
+    "Project_Name": "Fayrouz koy",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 395000,
+    "priceMax": 1235000,
+    "areaMin": "73m - ",
+    "areaMax": "195m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 395000,
+        "priceMax": 500000,
+        "area": "73m - 73m"
+      },
+      "2+1": {
+        "priceMin": 602000,
+        "priceMax": 897000,
+        "area": "116m - 156m"
+      },
+      "3+1": {
+        "priceMin": 894000,
+        "priceMax": 1166000,
+        "area": "169m - 188m"
+      },
+      "4+1": {
+        "priceMin": 1037000,
+        "priceMax": 1235000,
+        "area": "189m - 195m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 48,
+    "status": "Under Construction",
+    "delivery": 2019,
+    "status-ar": "",
+    "delivery-ar": ""
+  },
+  "code97": {
+    "code_name": "Cayan 103",
+    "Project_Name": "Toya Next",
+    "location": "Istanbul, Turkey",
+    "type": "0+1, 1+1, 2+1, 3+1, 4+1",
+    "priceMin": 372000,
+    "priceMax": 1937000,
+    "areaMin": "39m - ",
+    "areaMax": "267m",
+    "apartments": {
+      "1+0": {
+        "priceMin": 372000,
+        "priceMax": 427000,
+        "area": "39m - 73m"
+      },
+      "1+1": {
+        "priceMin": 520000,
+        "priceMax": 685000,
+        "area": "71m - 84m"
+      },
+      "2+1": {
+        "priceMin": 680000,
+        "priceMax": 1149000,
+        "area": "88m - 137m"
+      },
+      "3+1": {
+        "priceMin": 1338000,
+        "priceMax": 1520000,
+        "area": "197m - 188m"
+      },
+      "4+1": {
+        "priceMin": 1789000,
+        "priceMax": 1937000,
+        "area": "261m - 267m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 48,
+    "status": "Under Construction",
+    "delivery": 2019,
+    "status-ar": "",
+    "delivery-ar": ""
+  },
+  "code41": {
+    "code_name": "Cayan 41",
+    "Project_Name": "Gül Panorama",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 423000,
+    "priceMax": 1180000,
+    "areaMin": "69m - ",
+    "areaMax": "241m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 423000,
+        "priceMax": 423000,
+        "area": "69m - 71m"
+      },
+      "2+1": {
+        "priceMin": 557000,
+        "priceMax": 704000,
+        "area": "101m - 118m"
+      },
+      "3+1": {
+        "priceMin": 693000,
+        "priceMax": 1078000,
+        "area": "142m - 170m"
+      },
+      "4+1": {
+        "priceMin": 971000,
+        "priceMax": 1180000,
+        "area": "184m - 241m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 36,
+    "status": "Ready To Move",
+    "delivery": "Ready",
+    "status-ar": "",
+    "delivery-ar": ""
+  },
+  "code4": {
+    "code_name": "Cayan 4",
+    "Project_Name": "Mil Park",
+    "location": "Istanbul, Turkey",
+    "type": "1+1, 2+1, 3+1, 4+1",
+    "priceMin": 320000,
+    "priceMax": 900000,
+    "areaMin": "72m - ",
+    "areaMax": "261m",
+    "apartments": {
+      "1+1": {
+        "priceMin": 320000,
+        "priceMax": "",
+        "area": "72m - 84m"
+      },
+      "2+1": {
+        "priceMin": 414000,
+        "priceMax": "",
+        "area": "105m - 156m"
+      },
+      "3+1": {
+        "priceMin": 612000,
+        "priceMax": "",
+        "area": "177m - 232m"
+      },
+      "4+1": {
+        "priceMin": 900000,
+        "priceMax": "",
+        "area": "190m - 261m"
+      }
+    },
+    "down-payment": 0.3,
+    "installments": 36,
+    "status": "Ready To Move",
+    "delivery": "Ready",
+    "status-ar": "",
+    "delivery-ar": ""
+  }
+}

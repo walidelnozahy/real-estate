@@ -1,0 +1,176 @@
+@import "base-styles.sass"
+.owl-carousel-section
+  //height: 500px
+  margin: auto
+  width: 100%
+  margin-top: 100px
+  position: relative
+  background-color: $lightgrey-background
+  padding: 0 0 30px 0
+  h1
+    margin-left: 10vw
+    font-size: 3em
+    letter-spacing: 0.1em
+    // position: relative
+    &::before
+      content: "Projects"
+      color: rgba(0,0,0,0.05)
+      font-size: 1.5em
+      position: absolute
+      z-index: 1
+      left: 15vw
+      top: 4vh
+    &::after
+      content: ""
+      height: 3px
+      width: 80px
+      margin-left: 10px
+      top: 70%
+      background-color: $main-cayan-gold
+      position: absolute
+  .owl-carousel-btn
+    position: absolute
+    z-index: 10
+    top: 50%
+    width: 95%
+    left: 50%
+    transform: translateX(-50%)
+    @media (max-width: 992px)
+      width: 100%
+    i
+      font-size: 2em
+      font-weight: 100
+      cursor: pointer !important
+      transition: all .3s
+      &:hover
+        transform: scale(1.2)
+    .nextBtn
+      float: right
+  .owl-carousel
+    // background-color: black
+    width: 90%
+    margin: auto
+    @media (max-width: 992px)
+      width: 90%
+    .owl-stage-outer
+      height: 100%
+      padding: 40px 0
+    .owl-carousel-div
+      margin: auto
+      width: 90%
+      height: 70%
+      //background-color: black
+      color: #fff
+      border-radius: 30px
+      overflow: hidden
+      background-color: #fff
+      box-shadow: 6px 6px 30px 0px rgba(0,0,0,0.2)
+      border: 1px solid lightgrey
+      @media (max-width: 992px)
+        width: 95%
+        box-shadow: none
+      @media (min-width: 1300px) and (max-width:2000px)
+        width: 80%
+      .background-image
+        position: relative
+        height: 250px
+        width: 100%
+        background:
+          position: center
+          size: cover
+          repeat: no-repeat
+        h5
+          font-family: 'Oswald', sans-serif
+          font-weight: 400
+          position: absolute
+          bottom: 0
+          color: #fff
+          margin: 10px
+          background-color: rgba(0,0,0,0.4)
+        &.deniz-istanbul
+          background-image: url('../assets/images/carousel/deniz-istanbul/deniz-istanbul.jpg')
+        &.bursa-modern
+          background-image: url('../assets/images/carousel/bursa-modern/bursa-modern.jpg')
+        &.strada
+          background-image: url('../assets/images/carousel/strada/strada.jpg')
+        &.cayan-100
+          background-image: url('../assets/images/carousel/cayan-100/cayan-100.jpg')
+        &.cayan-124
+          background-image: url('../assets/images/carousel/cayan-124/cayan-124.jpg')
+        &.cayan-107
+          background-image: url('../assets/images/carousel/cayan-107/cayan-107.jpg')
+
+
+
+      .description
+        padding: 20px 10px 0 10px
+        margin-bottom: 0
+        color: $lightgrey
+        h6
+          font-weight: 500
+          font-size: 0.9em
+          color: black
+        h5
+          font-family: 'Oswald', sans-serif
+          font-weight: 600
+          font-size: 1.3em
+          color: $main-cayan-gold
+          margin: 0
+        p
+          font-size: 0.7em
+          font-weight: 400
+          margin: 10px 5px
+          @media (min-width: 1400px) and (max-width: 2000px)
+            font-size: 0.8em
+      .owl-carousel-icons
+        margin-top: 10px
+        border-top: 1px solid lightgrey
+        border-bottom: 1px solid lightgrey
+        .left-icons,.right-icons
+          width: 50%
+          padding: 5px
+          &.left-icons
+            border-right: 1px solid lightgrey
+          img
+            width: 18px
+            height: auto
+            display: inline
+            transform: translateY(5px)
+
+          p
+            display: inline
+            font-size: 0.7em
+            font-weight: 400
+      .button-div
+        text-align: center
+        button
+          background-color: $light-black
+          border-radius: 20px
+          font-weight: 400
+          font-size: 0.7em
+          cursor: pointer
+          transition: all .3s
+          &:hover
+            background-color: rgba(0,0,0,0.8)
+
+
+  .view-all-projects
+    text-align: center
+
+    a
+      button
+        margin: auto
+        background-color: $light-black
+        font-weight: 400
+        border-radius: 20px
+        transition: all .3s
+        &:hover
+          background-color: rgba(0,0,0,0.8)
+
+@media (max-width: 992px)
+  .owl-carousel-section
+    h1
+      margin: auto !important
+      display: table !important
+      &::before
+        display: none !important

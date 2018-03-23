@@ -1,0 +1,747 @@
+@import "base-styles"
+@import "common-styles"
+@import "normal-nav.sass"
+@import "contact-section.sass"
+@import "owl-carousel.sass"
+@import "fixed-btn.sass"
+@import "footer-each-project.sass"
+@import "pre-loader.sass"
+
+$blue: #33BBF6
+$blue-second: #1E96D1
+$blue-light: #CCEEFF
+$margin-left: 30px
+
+body
+  height: 100% !important
+#page-form,#page-form1
+  display: none !important
+
+h1
+  margin: 0 0 0 $margin-left
+  font-weight: 500
+  letter-spacing: 0.1em
+  padding: 10px 0
+  margin-bottom: 20px
+  display: table
+  &::after
+    content: ""
+    display: block
+    margin-top: 5px
+    width: 100%
+    height: 3px
+    background: $main-cayan-gold
+    transition: all .3s
+  @media (max-width: 992px)
+    padding: 0
+    text-align: center
+    margin: $margin-left auto
+
+
+.page-row
+  position: relative
+  z-index: 1
+  margin-bottom: 0 !important
+  height: 100% !important
+
+
+.page-nav
+  height: 100vh
+  position: fixed
+  z-index: -1
+  background-color: $black-bg
+  padding: 0 !important
+  box-shadow: $shadow
+  .sections
+    width: 100%
+    ul
+      text-align: left
+      padding: 0
+      width: 100%
+      li
+        cursor: pointer
+        transition: all .4s
+        padding: 0
+        &:hover
+          background-color: rgba(255,255,255,0.05)
+          a
+            letter-spacing: 0.1em
+            transform: translateX(10px)
+        a
+          font-size: 1.1em
+          padding: 7px 20px
+          color: #fff
+          transition: all .3s
+          width: 100%
+          height: 100%
+          border: none !important
+          font-weight: 100
+          &.active
+            background-color: $main-cayan-gold
+            width: 100%
+            border: none !important
+            padding: 7px 20px
+            letter-spacing: 0.1em
+            &:hover
+              transform: translateX(0px)
+            &::after
+              display: none
+          &::after
+            content: ""
+            display: block
+            width: 0
+            height: 2px
+            background: $main-cayan-gold
+            transition: all .3s
+          &:hover::after
+            width: 40%
+  .contact-input
+    background-color: $black-bg
+    width: 100%
+    color: #fff
+    padding: 0
+    text-align: center
+    margin-top: 5vh
+    @media (min-width: 1200px) and (max-width: 1900px)
+      margin-top: 1vh
+    p
+      color: #fff
+      font-weight: 100
+      opacity: 0.5
+      font-size: 0.8em
+      padding-left: 10px
+      @media (min-width: 1200px) and (max-width: 1900px)
+        font-size: 0.6em
+        padding: 0
+        transform: translateY(-5px)
+    .person
+      background-color: $main-cayan-gold
+      width: 100%
+      text-align: left
+      padding: 0
+      position: relative
+      margin-top: 60px
+      .person-img
+        padding: 0
+        position: absolute
+        bottom: 0
+        img
+          width: 100%
+          position: absolute
+          bottom: 0
+          height: auto
+      .person-text
+        height: 80% !important
+        padding: 0 10px
+        margin: 0
+        padding: 5px 0 0 20px
+        h5
+          font-size: 1.2em
+          margin: 0
+          font-weight: 300
+          @media (min-width: 1200px) and (max-width: 1900px)
+            font-size: 1em
+          span
+            color: rgba(0,0,0,0.5)
+            font-weight: 500
+            font-size: 0.7em
+        i
+          display: inline
+          font-size: 20px
+        p
+          display: inline
+          margin-bottom: 2px
+          padding: 0
+    form
+      width: 90%
+      @media (min-width: 1200px) and (max-width: 1900px)
+
+      p
+        text-align: center
+      .input-field
+        margin: 0
+        opacity: 1
+        display: block
+        margin-bottom: 10px
+        &.phone-number
+          width: 79%
+          text-align: left
+          position: relative
+          margin-bottom: 10px
+          .intl-tel-input
+            position: relative
+            left: 0
+            display: block
+        &.email
+          display: block
+
+        label
+          font-size: 0.8em
+        input
+          height: 40px
+          font-size: 0.8em
+          margin-bottom: 0
+
+
+      input:focus
+        + label
+          color: $main-cayan-gold !important
+          transform: translateY(-6px)
+          font-size: 0.8em
+        font-size: 0.8em
+        border-bottom: 1px solid $main-cayan-gold !important
+        box-shadow: 0 1px 0 0 $main-cayan-gold !important
+        border-left: none !important
+      button
+        margin: auto
+        width: 80%
+        background-color: $button-blue
+        font-size: 0.7em
+        font-weight: 500
+    .contact-info
+      margin-top: 20px
+      text-align: left
+      opacity: 0.7
+      i
+        color: lightgrey
+      p
+        color: lightgrey
+        padding-left: 40px
+    .contact-social-mobile
+      display: block
+      margin: auto
+      text-align: center
+      justify-content: space-between
+      a
+        &.facebook
+          img
+            width: 10px
+        img
+          width: 20px
+          height: auto
+          margin: 10px
+          display: inline
+.page
+  padding: 0 !important
+  margin: 0 !important
+  position: relative
+  width: 100%
+  z-index: -1
+  height: 100% !important
+  .each-project-hero
+    width: 100%
+    height: 150px
+    text-align: center
+    display: flex
+    background:
+      image: url('../assets/images/each-project/_each-project-hero.jpg')
+      position: center
+      repeat: no-repeat
+      size: cover
+    h1
+      text-transform: uppercase
+      font-size: 5em
+      color: #fff
+      font-weight: 100
+      margin: auto
+      &::after
+        height: 0
+      span
+        color: $main-cayan-gold
+  .overview
+    margin-top: 20px
+    .text
+      width: 50%
+      p
+        text-align: left
+        margin: 0 0 0 $margin-left
+        font-size: 0.9em
+      .overview-icons
+        text-align: center
+        width: 100%
+        margin-top: 10px
+        .each-icon
+          margin-top: 20px
+          img
+            width: 50px !important
+            height: auto
+
+          p
+            color: $black-bg
+            margin: auto
+            text-align: center
+          .p-blue
+            font-weight: 500
+            color: $main-cayan-gold
+    .image
+      text-align: center
+      //width: 50%
+      height: 100%
+      position: relative
+      img
+        width: 100%
+        //height: 100%
+  #photo-tour-h1
+    transform: translateY(20px)
+
+  .photo-tour
+    width: 90%
+    margin: 40px auto
+    text-align: center
+    position: relative
+    display: flex
+    background-color: rgba(0,0,0,0.01)
+    .carousel-slider
+      padding: 0
+      text-align: center
+      //width: 100%
+      margin: auto
+      //background-color: blue
+      img
+        width: 100%
+        height: auto
+        margin: 0
+    .button
+      margin: auto
+      opacity: 0.5
+      cursor: pointer
+      i
+        font-size: 40px
+  .iframe
+    position: relative
+    @media (max-width: 992px)
+      display: none
+    .hide-logo
+      margin: auto
+      width: 90%
+      height: 100px
+      background-color: #fff
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+
+  .privileges
+    position: relative
+    // background:
+    //   image: url('/assets/images/each-project/previleges/background.jpg')
+    //   position: center
+    //   size: cover
+    //   repeat: no-repeat
+    .privileges-icons
+      text-align: center
+
+      .icons-each
+        display: flex
+        flex-direction: column
+        width: 32%
+        height: 268px
+        background:
+          position: center
+          size: cover
+          repeat: no-repeat
+        .icons-each-inner
+          margin: auto
+
+          //height: 70%
+          img
+            width: 100px
+            height: auto
+          p
+            margin-top: 20px
+            color: #fff
+            font-weight: 100
+            font-size: 1.7em
+        &.gym
+          background:
+            image: url('../assets/images/each-project/previleges/gym.jpg')
+        &.parks
+          background:
+            image: url('../assets/images/each-project/previleges/parks.jpg')
+        &.movie
+          background:
+            image: url('../assets/images/each-project/previleges/movie.jpg')
+        &.family
+          background:
+            image: url('../assets/images/each-project/previleges/family.jpg')
+        &.swiming
+          background:
+            image: url('../assets/images/each-project/previleges/swiming-pool.jpg')
+        &.trail
+          background:
+            image: url('../assets/images/each-project/previleges/trail.jpg')
+        &.security
+          background:
+            image: url('../assets/images/each-project/previleges/security.jpg')
+        &.cafes
+          background:
+            image: url('../assets/images/each-project/previleges/cafes.jpg')
+        &.food
+          background:
+            image: url('../assets/images/each-project/previleges/food.jpg')
+
+
+  .apartments-details
+    padding-top: 10px !important
+    //height: 750px
+    .apartments-details-plans
+      margin-top: 40px
+      .tabs-div
+        width: 90%
+        margin: auto
+        position: relative
+        left: 50%
+        padding: 0
+        transform: translateX(-50%)
+        .tabs
+          height: 40px
+          width: 80%
+          background: none
+          display: flex
+          justify-content: space-between
+          position: relative
+          z-index: 40
+          .indicator
+            display: none
+          .tab
+            height: 100%
+            background-color: $main-cayan-gold
+            border-radius: 20px 20px  0 0
+            a
+              color: #fff
+              padding: 0
+              font-size: 1.1em
+              font-weight: 500
+              display: flex
+              justify-content: space-around
+            &.active
+              background-color: #fff
+              border: 1px solid $main-cayan-gold
+              border-bottom: none
+              a
+                color: $main-cayan-gold
+      .details
+        padding: 60px 20px
+        width: 80%
+        position: relative
+        margin-bottom: 20px
+        z-index: 200
+        left: 50%
+        transform: translateX(-50%)
+        background-color: #fff
+        //box-shadow: $shadow
+        display: flex
+        justify-content: space-between
+        border-bottom: 5px solid $main-cayan-gold
+        .details-text
+          width: 50%
+          p
+            font-size: 1.3em
+            text-align: left
+            margin: 10px auto
+            font-weight: 400
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+            &:nth-child(1)
+              &::after
+                content: ""
+                display: block
+                margin-top: 5px
+                width: 100%
+                height: 2px
+                background: $main-cayan-gold
+                transition: all .3s
+            span
+              float: right
+              color: $main-cayan-gold
+              font-family: 'Oswald', sans-serif
+              font-weight: 400
+              letter-spacing: 0.2em
+              font-size: 0.8em
+          hr
+            width: 100%
+            margin: auto
+        .details-img
+          width: 50%
+          padding-right: 0
+
+          img
+            width: 100%
+            height: auto
+            margin: auto
+  .map
+    margin-top: 30px
+    text-align: center
+    position: relative
+    z-index: 1
+    left: 50% !important
+    transform: translateX(-50%)
+    .map-buttons
+      position: relative
+      left: 50%
+      transform: translateX(-50%)
+      width: auto
+      display: flex
+      justify-content: space-between
+      a
+        width: 200px
+        margin: 2px
+        //height: 100px
+        text-align: center
+        background-color: $black-bg
+        p
+          color: $main-cayan-gold
+
+        img
+          margin-top: 10px
+          width: 20%
+          height: auto
+
+    #map
+      margin-top: 20px
+      width: 100%
+      height: 500px
+      margin: auto
+
+  .owl-carousel-section
+    width: 100% !important
+    padding-bottom: 30px
+    h1
+      @extend h1
+      position: static
+      //font-size: 0.7em !important
+      &::after
+        display: none !important
+        position: relative
+        margin-left: 0
+      &::before
+        content: none !important
+
+      @media (max-width: 992px)
+        padding: 0
+        text-align: center
+        margin: $margin-left auto
+    .owl-carousel
+      .owl-carousel-div
+        width: 100%
+        box-shadow: none
+        .description
+          h5
+            font-size: 1em
+        .owl-carousel-icons
+          .left-icons, .right-icons
+            p
+              font-size: 0.5em
+
+
+  .contact-input
+    display: none !important
+@media (max-width: 992px)
+  .page-nav
+    display: none
+  .page
+    .each-project-hero
+      h1
+        font-size: 2em
+    .overview
+      .text
+        width: 100%
+        h1
+          margin-left: 0px
+        p
+          margin: 20px 0 10px 0
+        .overview-icons
+          //height: 620px
+          .each-icon
+            margin-top: 30px
+            img
+              width: 25px
+              height: auto
+      .image
+        margin-top: 20px
+        width: 100%
+        img
+          width: 100%
+          height: auto
+
+    .photo-tour
+      padding: 0
+      //height: 186.95px
+      overflow: hidden
+      .carousel-slider
+        width: 100% !important
+        //height: 400px
+        a
+          height: 100% !important
+          img
+            width: 100% !important
+            height: auto !important
+      .button
+        display: none
+      .btn-big
+        display: none
+    .privileges
+      margin-top: 0px
+      padding: 0
+      .container
+        width: 100%
+      h1
+        margin-top: 0px
+      .privileges-icons
+        width: 100%
+        padding: 0
+        .icons-each
+          width: 100%
+          img
+            width: 60px !important
+            height: auto
+    .apartments-details
+      h1
+        margin-top: 0
+      .apartments-details-plans
+        margin-top: 0px
+        .tabs-div
+          margin-top: 10px
+          .tabs-content
+            height: 300px !important
+            .tabs
+              height: 40px
+              width: 100%
+        .details
+          flex-direction: column
+          padding: 0 !important
+          width: 100%
+          .details-text
+            width: 100%
+            //left: 50%
+            margin: 20px auto 0 auto
+            transform: translateY(0)
+            p
+              font-size: 0.9em !important
+              width: 100%
+              &:nth-child(1)
+                &::after
+                  height: 1px
+          .details-img
+            width: 100%
+            top: 0
+            transform: translateY(0)
+            .material-placeholder
+              img
+                width: 100%
+    .map
+      .map-buttons
+        display: block
+        a
+          width: 45%
+          margin: 2px
+          p
+            font-size: 0.7em
+          img
+
+    .contact-input
+      margin-top: 0px
+      margin-bottom: 0px
+      display: block !important
+      background-color: $black-bg
+      width: 70%
+      padding: 20px 30px
+      color: #fff
+      box-sizing: border-box
+      border: 20px solid $black-bg
+      h5
+        font-weight: 100
+        font-size: 2em
+      p
+        color: #fff
+        font-weight: 100
+        opacity: 0.5
+      form
+        margin-top: 50px
+        text-align: center
+        .input-field
+          width: 90%
+          opacity: 1
+          i
+            font-size: 25px
+            margin-top: 20px
+        .prefix.active
+          color: $main-cayan-gold
+          opacity: 1
+        input:focus
+          + label
+            color: $main-cayan-gold !important
+          border-bottom: 1px solid $main-cayan-gold !important
+          box-shadow: 0 1px 0 0 $main-cayan-gold !important
+          border-left: none !important
+
+
+
+        button
+          margin: 20px auto
+          width: 200px
+          background-color: $button-blue
+          font-size: 0.8em
+          font-weight: 500
+      .contact-info
+        margin-top: 20px
+        text-align: left
+        opacity: 0.7
+        i
+          color: lightgrey
+        p
+          color: lightgrey
+          padding-left: 40px
+      .contact-social-mobile
+        display: none
+
+.tap-target
+  background-color: $black-bg
+  .tap-target-content
+    color: $main-cayan-gold
+    p
+      color: $main-cayan-gold
+
+@media (min-width: 993px) and (max-width: 1900px)
+  .page-nav
+    .contact-input
+      .person
+        margin-top: 20px
+  .page
+    .overview
+      h1
+        margin-bottom: 0
+      .text
+        .overview-icons
+          margin-top: 0
+          .each-icon
+            p
+              font-size: 0.7em
+            img
+              width: 25px
+              height: auto
+    .privileges
+      .privileges-icons
+        .icons-each
+          width: 32%
+          height: 200px
+          img
+            width: 50px !important
+          p
+            font-size: 0.9em !important
+
+    .map
+      .map-buttons
+        a
+          p
+            font-size: 0.8em
+    .owl-carousel-section
+      .owl-carousel
+        .owl-carousel-div
+          .description
+            h5
+              font-size: 1.2em
+            h6
+              font-size: 0.8em
+            p
+              font-size: 0.7em

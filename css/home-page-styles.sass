@@ -1,0 +1,308 @@
+@import "pre-loader.sass"
+@import "base-styles.sass"
+@import "common-styles.sass"
+@import "home-page-nav.sass"
+@import "normal-nav.sass"
+@import "owl-carousel.sass"
+@import "contact-section.sass"
+@import "fixed-btn"
+@import "footer.sass"
+
+.navbar-fixed
+  display: none
+// ============================================HERO=========================
+
+.hero-carousel
+  height: 100vh
+  position: relative
+  background:
+    image: url('../assets/images/home-page/home-page-hero-lg.png')
+    repeat: no-repeat
+    position: center
+    size: cover
+    attachment: fixed
+
+  &::before
+    content: ""
+    width: 100%
+    height: 100%
+    background:
+      image: url('../assets/images/home-page/sky-small.jpg')
+      repeat: repeat-x
+      position-x: top left
+      size: cover
+      attachment: fixed
+    position: absolute
+    z-index: -20
+    animation-name: moveSky
+    animation-duration: 50s
+    animation-fill-mode: both
+    animation-iteration-count: infinite
+  @keyframes moveSky
+    from
+      background-position-x: 0
+    to
+      background-position-x: 100%
+  &::after
+    position: absolute
+    z-index: 1
+    margin: 0
+    content: ""
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.2)
+  .dropdown-content
+    margin-top: 10px
+    background-color: rgba(0,0,0,0.1)
+
+    li
+      text-align: left
+      margin: 0 !important
+      padding: 0 10px !important
+      display: table
+      a
+        font-size: 0.9em
+        color: #fff
+        padding: 0
+      &:hover
+        background-color: rgba(0,0,0,0.5)
+
+  .language-home
+    position: relative
+    z-index: 20
+    li
+      margin: 10px
+      p
+        color: #fff
+      &.dropdown-button
+        color: #fff
+        cursor: pointer
+        a
+          color: #fff
+
+  .hero-text
+
+    position: absolute
+    top: 40%
+    z-index: 3
+    width: 80%
+    left: 50%
+    transform: translate(-50%,-40%)
+    text-align: center
+    color: #fff
+    img
+      display: none
+    h3
+      font-weight: 100
+    h1
+      font-weight: 800
+      font-size: 8em
+      text-shadow: 9px 8px 20px rgba(0,0,0,0.38)
+      margin: 0
+      padding: 0
+
+// ============================================COMPANY INFO=========================
+
+.company-intro
+  margin-top: 10vh
+  text-align: center
+  h4
+    margin-bottom: 50px
+  p
+    margin: auto
+    width: 50%
+    max-width: 80%
+    font-size: 0.9em
+    //padding: 0 30vw
+    line-height: 3vh
+  .company-info-icons
+    margin-top: 60px
+    transition: all .3s
+    img
+      width: 10vh
+      height: auto
+    h5
+      font-size: 0.9em
+      font-weight: 600
+// ============================================WHY CHOOSE US=========================
+.why-choose-us
+  //margin-top: 40px
+  position: relative
+  padding: 0 0 40px 0
+  background:
+    image: url('../assets/images/home-page/_hp-background-pattern.png')
+    repeat: no-repeat
+    position: center
+    size: cover
+  &::before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: $dark-brown
+  h1
+    color: $main-cayan-gold
+    margin-top: 0 !important
+    &::before
+      content: "WHY CHOOSE US" !important
+      position: absolute
+      color: $main-cayan-gold
+      opacity: 0.07
+      font-size: 1.2em
+    &::after
+      top: 75%
+
+
+  .why-choose-us-info
+    margin-top: 40px
+    color: #fff
+    .why-choose-us-info-each
+      margin-top: 30px
+      img
+        width: 60px
+
+      p
+        color: $lightgrey
+        line-height: 1.1em
+// ============================================TESTIMONIALS=========================
+.testimonials
+  margin: 50px auto
+  height: 400px
+  width: 100%
+  margin-top: 80px
+  position: relative
+  h1
+    &::before
+      content: "TESTIMONIALS"
+      font-size: 1.5em
+    &::after
+      top: 80%
+  .testimonials-carousel
+    width: 100%
+    text-align: center
+    transform: translateY(10%)
+    height: 100%
+    margin: auto
+    .owl-stage-outer
+      height: 100%
+      width: 100%
+      padding: 50px 0
+    .owl-dots
+      color: red
+      position: relative
+      width: 20%
+      height: 20px
+      z-index: 20
+      margin: auto
+      display: flex
+      justify-content: space-between
+      .owl-dot
+        display: inline
+        background-color: darkgrey
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        margin: 3px
+        &.active
+          background-color: $main-cayan-gold
+          border: none
+    .testimonials-each
+      background-color: $black-bg
+      margin: auto
+      width: 90%
+      height: 80%
+      padding: 50px 10px
+      border-radius: 40px 0 40px 40px
+      box-shadow: 6px 6px 30px 0px rgba(0,0,0,0.2)
+      &::after
+        content: "TESTIMONIALS"
+        position: absolute
+        opacity: 0.05
+        font-size: 3em
+        color: #fff
+        z-index: 20
+        bottom: 0
+        right: 10%
+        font-weight: 800
+      img
+        height: 80px
+        width: auto
+        display: inline-block
+      .testimonials-each-text
+        display: inline-block
+        transform: translateY(-30%)
+        text-align: left
+        margin: auto
+        width: 60%
+        padding-left: 20px
+        color: $main-cayan-gold
+        p
+          color: #fff
+
+// ============================================FOOTER=========================
+
+
+// ============================================MEDIA-QUERRY=========================
+@media (max-width: 992px)
+
+  .normal-nav
+    display: none
+
+    // ============================================HERO=========================
+
+  .hero-carousel
+    background-position-y: 100px
+    background-image: url('../assets/images/home-page/home-page-hero-sm.png')
+    .hero-text
+      img
+        display: block !important
+        max-width: 50%
+        height: auto
+        margin: auto
+        margin-top: 0%
+        margin-bottom: 50px
+      h3
+        font-size: 1.5em !important
+      h1
+        font-size: 3.6em !important
+        margin: 5px
+        &::after
+          display: none
+
+  // ============================================COMPANY-INFO=========================
+  .company-intro
+    p
+      width: 90%
+  .why-choose-us
+    h1
+      font-size: 2em !important
+      text-align: center !important
+  // ============================================TESTIMONIALS=========================
+  .testimonials
+    margin-top: 10px
+    height: 300px
+    h1
+      text-align: center
+      margin: 0
+    .testimonials-carousel
+      .owl-stage-outer
+        padding: 10px 0
+      .testimonials-each
+        padding: 20px 10px
+        border-radius: 70px 0 50px 70px
+        .testimonials-each-text
+          p
+            font-size: 0.7em !important
+          transform: translateY(0)
+  .body-h1
+    &::before
+      display: none
+
+
+@media (min-width: 993px) and (max-width: 1200px)
+  .company-intro
+    .company-info-icons
+      img
+        width: 100px
+        height: auto

@@ -1,0 +1,33 @@
+@import "common-styles.sass"
+.fixed-action-btn
+  display: none !important
+
+@media (max-width: 992px)
+  .fixed-action-btn
+    display: block !important
+    position: fixed !important
+    left: 10px !important
+    bottom: 10px !important
+    //z-index: 200 !important
+    a
+      background-color: $black-bg
+
+      &:hover
+        background-color: $black-bg
+      i
+        color: #fff
+    ul
+      text-align: left
+      display: table
+      margin-left: 10px
+      li
+        display: table
+        a
+          font-weight: 400
+          text-align: center
+      .whatsapp
+        text-align: center
+        img
+          margin: 6px auto 0 auto
+          width: 50%
+          height: auto

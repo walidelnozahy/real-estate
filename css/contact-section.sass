@@ -1,0 +1,220 @@
+@import "common-styles.sass"
+.contact-section
+  margin-top: 50px
+  width: 100%
+  height: 800px
+  //text-align: center
+  position: relative
+  h1
+    margin-top: 0
+    &::before
+      content: "CONTACT US"
+    &::after
+      top: 80%
+  .contact-social
+    width: 40px
+    background: #fff
+    transform: translateY(20%)
+    text-align: center
+    padding: 0
+    box-shadow: $shadow
+    .contact-social-icons
+      width: 100%
+      height: 80px
+      margin: auto
+      padding: 0
+      text-align: center
+      display: flex
+      cursor: pointer
+      background-position: center
+      background-size: 20px
+      background-repeat: no-repeat
+      transition: all .3s
+      &:hover
+        background-color: rgba(0,0,0,0.02)
+      &.twitter
+        background-image: url('../assets/images/contact-icons/twitter.png')
+        &:hover
+          background-image: url('../assets/images/contact-icons/twitter-color.png')
+          background-size: 30px
+
+      &.facebook
+        background-size: 15px
+        background-image: url('../assets/images/contact-icons/facebook.png')
+        &:hover
+          background-image: url('../assets/images/contact-icons/facebook-color.png')
+          background-size: 20px
+
+      &.instagram
+        background-image: url('../assets/images/contact-icons/instagram.png')
+        &:hover
+          background-image: url('../assets/images/contact-icons/instagram-color.png')
+          background-size: 30px
+
+      &.youtube
+        background-image: url('../assets/images/contact-icons/youtube.png')
+        &:hover
+          background-image: url('../assets/images/contact-icons/youtube-color.png')
+          background-size: 30px
+
+      &.linkedin
+        background-image: url('../assets/images/contact-icons/linkedin.png')
+        &:hover
+          background-image: url('../assets/images/contact-icons/linkedin-color.png')
+          background-size: 30px
+
+      a
+        width: 100%
+        height: 100%
+
+
+  .contact-input
+    position: absolute
+    //left: 40px
+    //top: 20%
+    background-color: $black-bg
+    z-index: 10
+    //height: 800px
+    width: 50%
+    padding: 20px 30px
+    color: #fff
+    box-sizing: border-box
+    border: 20px solid $black-bg
+    transform: translateX(76.8px)
+    box-shadow: $shadow
+
+    h5
+      font-weight: 100
+      font-size: 2em
+    p
+      color: #fff
+      font-weight: 100
+      opacity: 0.5
+    form
+      margin-top: 50px
+      text-align: center
+      .input-field
+        width: 90%
+        opacity: 1
+        i
+          font-size: 25px
+          margin-top: 20px
+      #demo
+        position: relative
+        left: 0
+        width: 135%
+      .intl-tel-input
+        transform: translateX(-60px)
+        position: relative
+        left: 0
+        z-index: 30
+
+      .prefix.active
+        color: $main-cayan-gold
+        opacity: 1
+      input:focus
+        + label
+          color: $main-cayan-gold !important
+        border-bottom: 1px solid $main-cayan-gold !important
+        box-shadow: 0 1px 0 0 $main-cayan-gold !important
+        border-left: none !important
+
+
+
+      button
+        margin: 20px auto
+        width: 200px
+        background-color: $button-blue
+        font-size: 0.8em
+        font-weight: 500
+    .contact-info
+      margin-top: 20px
+      text-align: left
+      opacity: 0.7
+      i
+        color: lightgrey
+      p
+        color: #fff
+        padding-left: 40px
+    .contact-social-mobile
+      display: none
+
+  #map
+    //margin: auto
+    height: 500px
+    width: 100%
+    width: 90%
+    position: relative
+    overflow: visible
+    transform: translateY(20%)
+    margin: 0
+    padding: 0
+    box-shadow: $shadow
+
+@media (max-width: 992px)
+
+  .contact-section
+    margin-top: 30px
+    height: 770px !important
+    h1
+      padding-top: 0
+      text-align: center
+      &::before
+        display: none
+    .contact-social
+      display: none
+    .contact-input
+      position: relative
+      margin: 10px auto
+      width: 100%
+      transform: translateX(0)
+      form
+        #demo
+          position: relative
+          left: 0
+          width: 80%
+        .intl-tel-input
+          transform: translateX(0px)
+          position: relative
+          left: 0
+        display: block
+        margin: auto
+        padding-top: 40px
+        text-align: center
+        justify-content: space-between
+        a
+          &.facebook
+            img
+              width: 10px
+          img
+            width: 20px
+            height: auto
+            margin: 10px
+            display: inline
+    #map
+      display: none
+@media (min-width: 993px) and (max-width: 1200px)
+  .contact-input
+    transform: translateX(60.8px) !important
+    form
+      #demo
+        position: relative
+        left: 0
+        width: 100% !important
+      .intl-tel-input
+        transform: translateX(-20px) !important
+        position: relative !important
+        left: 0 !important
+@media (min-width: 1300px) and (max-width: 2000px)
+  .contact-section
+    .contact-input
+      transform: translateX(90px) !important
+      form
+        #demo
+          position: relative
+          left: 0
+          width: 230% !important
+        .intl-tel-input
+          transform: translateX(-150px) !important
+          position: relative !important
+          left: 0 !important

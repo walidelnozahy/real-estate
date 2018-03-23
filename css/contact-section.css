@@ -1,0 +1,197 @@
+.contact-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 800px;
+  position: relative; }
+  .contact-section h1 {
+    margin-top: 0; }
+    .contact-section h1::before {
+      content: "CONTACT US"; }
+    .contact-section h1::after {
+      top: 80%; }
+  .contact-section .contact-social {
+    width: 40px;
+    background: #fff;
+    transform: translateY(20%);
+    text-align: center;
+    padding: 0;
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2); }
+    .contact-section .contact-social .contact-social-icons {
+      width: 100%;
+      height: 80px;
+      margin: auto;
+      padding: 0;
+      text-align: center;
+      display: flex;
+      cursor: pointer;
+      background-position: center;
+      background-size: 20px;
+      background-repeat: no-repeat;
+      transition: all 0.3s; }
+      .contact-section .contact-social .contact-social-icons:hover {
+        background-color: rgba(0, 0, 0, 0.02); }
+      .contact-section .contact-social .contact-social-icons.twitter {
+        background-image: url("../assets/images/contact-icons/twitter.png"); }
+        .contact-section .contact-social .contact-social-icons.twitter:hover {
+          background-image: url("../assets/images/contact-icons/twitter-color.png");
+          background-size: 30px; }
+      .contact-section .contact-social .contact-social-icons.facebook {
+        background-size: 15px;
+        background-image: url("../assets/images/contact-icons/facebook.png"); }
+        .contact-section .contact-social .contact-social-icons.facebook:hover {
+          background-image: url("../assets/images/contact-icons/facebook-color.png");
+          background-size: 20px; }
+      .contact-section .contact-social .contact-social-icons.instagram {
+        background-image: url("../assets/images/contact-icons/instagram.png"); }
+        .contact-section .contact-social .contact-social-icons.instagram:hover {
+          background-image: url("../assets/images/contact-icons/instagram-color.png");
+          background-size: 30px; }
+      .contact-section .contact-social .contact-social-icons.youtube {
+        background-image: url("../assets/images/contact-icons/youtube.png"); }
+        .contact-section .contact-social .contact-social-icons.youtube:hover {
+          background-image: url("../assets/images/contact-icons/youtube-color.png");
+          background-size: 30px; }
+      .contact-section .contact-social .contact-social-icons.linkedin {
+        background-image: url("../assets/images/contact-icons/linkedin.png"); }
+        .contact-section .contact-social .contact-social-icons.linkedin:hover {
+          background-image: url("../assets/images/contact-icons/linkedin-color.png");
+          background-size: 30px; }
+      .contact-section .contact-social .contact-social-icons a {
+        width: 100%;
+        height: 100%; }
+  .contact-section .contact-input {
+    position: absolute;
+    background-color: #222222;
+    z-index: 10;
+    width: 50%;
+    padding: 20px 30px;
+    color: #fff;
+    box-sizing: border-box;
+    border: 20px solid #222222;
+    transform: translateX(76.8px);
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2); }
+    .contact-section .contact-input h5 {
+      font-weight: 100;
+      font-size: 2em; }
+    .contact-section .contact-input p {
+      color: #fff;
+      font-weight: 100;
+      opacity: 0.5; }
+    .contact-section .contact-input form {
+      margin-top: 50px;
+      text-align: center; }
+      .contact-section .contact-input form .input-field {
+        width: 90%;
+        opacity: 1; }
+        .contact-section .contact-input form .input-field i {
+          font-size: 25px;
+          margin-top: 20px; }
+      .contact-section .contact-input form #demo {
+        position: relative;
+        left: 0;
+        width: 135%; }
+      .contact-section .contact-input form .intl-tel-input {
+        transform: translateX(-60px);
+        position: relative;
+        left: 0;
+        z-index: 30; }
+      .contact-section .contact-input form .prefix.active {
+        color: #CDA036;
+        opacity: 1; }
+      .contact-section .contact-input form input:focus {
+        border-bottom: 1px solid #CDA036 !important;
+        box-shadow: 0 1px 0 0 #CDA036 !important;
+        border-left: none !important; }
+        .contact-section .contact-input form input:focus + label {
+          color: #CDA036 !important; }
+      .contact-section .contact-input form button {
+        margin: 20px auto;
+        width: 200px;
+        background-color: #28A9E5;
+        font-size: 0.8em;
+        font-weight: 500; }
+    .contact-section .contact-input .contact-info {
+      margin-top: 20px;
+      text-align: left;
+      opacity: 0.7; }
+      .contact-section .contact-input .contact-info i {
+        color: lightgrey; }
+      .contact-section .contact-input .contact-info p {
+        color: #fff;
+        padding-left: 40px; }
+    .contact-section .contact-input .contact-social-mobile {
+      display: none; }
+  .contact-section #map {
+    height: 500px;
+    width: 100%;
+    width: 90%;
+    position: relative;
+    overflow: visible;
+    transform: translateY(20%);
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 100px 0 rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 992px) {
+  .contact-section {
+    margin-top: 30px;
+    height: 770px !important; }
+    .contact-section h1 {
+      padding-top: 0;
+      text-align: center; }
+      .contact-section h1::before {
+        display: none; }
+    .contact-section .contact-social {
+      display: none; }
+    .contact-section .contact-input {
+      position: relative;
+      margin: 10px auto;
+      width: 100%;
+      transform: translateX(0); }
+      .contact-section .contact-input form {
+        display: block;
+        margin: auto;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: space-between; }
+        .contact-section .contact-input form #demo {
+          position: relative;
+          left: 0;
+          width: 80%; }
+        .contact-section .contact-input form .intl-tel-input {
+          transform: translateX(0px);
+          position: relative;
+          left: 0; }
+        .contact-section .contact-input form a.facebook img {
+          width: 10px; }
+        .contact-section .contact-input form a img {
+          width: 20px;
+          height: auto;
+          margin: 10px;
+          display: inline; }
+    .contact-section #map {
+      display: none; } }
+@media (min-width: 993px) and (max-width: 1200px) {
+  .contact-input {
+    transform: translateX(60.8px) !important; }
+    .contact-input form #demo {
+      position: relative;
+      left: 0;
+      width: 100% !important; }
+    .contact-input form .intl-tel-input {
+      transform: translateX(-20px) !important;
+      position: relative !important;
+      left: 0 !important; } }
+@media (min-width: 1300px) and (max-width: 2000px) {
+  .contact-section .contact-input {
+    transform: translateX(90px) !important; }
+    .contact-section .contact-input form #demo {
+      position: relative;
+      left: 0;
+      width: 230% !important; }
+    .contact-section .contact-input form .intl-tel-input {
+      transform: translateX(-150px) !important;
+      position: relative !important;
+      left: 0 !important; } }
+
+/*# sourceMappingURL=contact-section.css.map */
